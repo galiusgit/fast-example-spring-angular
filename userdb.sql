@@ -1,0 +1,10 @@
+CREATE TABLE users
+(
+id BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+first_name VARCHAR(255)NOT NULL,
+second_name VARCHAR(255) NULL,
+first_surname VARCHAR(255)NOT NULL,
+second_surname VARCHAR(255) NULL,
+phone VARCHAR(30) NULL,
+addres VARCHAR(150) NOT NULL
+)
